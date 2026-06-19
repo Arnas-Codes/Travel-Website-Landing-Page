@@ -1,9 +1,11 @@
 import Hero from './Components/Hero/Hero';
+import Category from './Components/Category/Category';
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-white overflow-x-hidden selection:bg-orange-200">
+    <div className=" bg-white overflow-x-hidden selection:bg-orange-200">
       <Hero />
+      <Category />
     </div>
   );
 };
