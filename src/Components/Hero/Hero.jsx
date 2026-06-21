@@ -6,9 +6,10 @@ import Decore from "../../assets/images/Decore.png";
 
 const Hero = () => {
   return (
-    // Changed: Removed min-h-screen, relying on standard padding flow so components stack seamlessly
-    <div id="home" className="relative w-full text-black font-sans bg-white overflow-hidden">
-      
+    <div
+      id="home"
+      className="relative w-full text-black font-sans bg-white overflow-hidden"
+    >
       {/* Background Decore */}
       <div className="absolute top-0 right-0 z-0 w-1/2 md:w-auto pointer-events-none">
         <img src={Decore} alt="" className="w-full object-contain" />
@@ -18,9 +19,7 @@ const Hero = () => {
       <Navbar />
 
       {/* Main Hero Content */}
-      {/* Changed: Set tight top padding to account for fixed navbar, and a standard pb-12/pb-20 bottom margin to transition to Category */}
       <div className="max-w-7xl mx-auto px-6 md:px-12 pt-28 md:pt-40 pb-12 md:pb-20 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-        
         {/* Left Text Column */}
         <div className="flex flex-col space-y-5 text-center lg:text-left order-2 lg:order-1">
           <h1 className="text-xs md:text-sm uppercase tracking-widest font-bold text-orange-500">
@@ -60,12 +59,11 @@ const Hero = () => {
         </div>
 
         {/* Right Graphic/Profile Column */}
-        {/* Changed: Controlled limits on image container sizing to keep block compact */}
-        <div className="relative order-1 lg:order-2 flex justify-center items-center w-full max-w-[450px] lg:max-w-none mx-auto">
+        <div className="relative order-1 lg:order-2 flex justify-center items-center w-full max-w-112.5 lg:max-w-none mx-auto">
           <img
             src={Profile}
             alt="Travel Concept"
-            className="w-full h-auto object-contain max-h-[500px] lg:max-h-none"
+            className="w-full h-auto object-contain max-h-125 lg:max-h-none"
           />
         </div>
       </div>

@@ -17,7 +17,7 @@ const Destination = () => {
         {DestinationData.map((data, index) => (
           <article
             key={data.id || index}
-            className="w-full h-[420px] overflow-hidden rounded-2xl bg-white shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col"
+            className="w-full h-105 overflow-hidden rounded-2xl bg-white shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col"
           >
             <div className="flex-1 min-h-0 w-full overflow-hidden">
               <img
@@ -51,4 +51,4 @@ const Destination = () => {
   );
 };
 
-export default Destination;
+export default Destination; 

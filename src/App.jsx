@@ -1,6 +1,7 @@
 import Hero from './Components/Hero/Hero';
 import Category from './Components/Category/Category';
 import Destination from './Components/Destination/Destination';
+import Booking from './Components/Booking/Booking';
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Hero />
       <Category />
       <Destination />
+      <Booking />
     </div>
   );
 };
