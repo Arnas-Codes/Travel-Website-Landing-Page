@@ -9,7 +9,7 @@ import building from "../../assets/Images/BookingImages/building.png";
 
 const Booking = () => {
   return (
-    <div className="w-full max-w-7xl mx-auto px-6 md:px-12 py-16 min-h-screen flex flex-col md:flex-row gap-12 lg:gap-6 justify-between items-center text-black font-sans">
+    <div className="w-full max-w-7xl mx-auto px-6 md:px-12 py-16 flex flex-col md:flex-row gap-12 lg:gap-6 justify-between items-center text-black font-sans">
       
       {/* Left Column: Steps */}
       <div className="w-full lg:w-1/2 flex flex-col gap-6 items-center">
@@ -50,7 +50,7 @@ const Booking = () => {
       <div className="w-full lg:w-1/2 flex justify-center items-center relative mt-10 lg:mt-0">
         
         {/* Main Greece Trip Card */}
-        <div className="relative w-full max-w-[370px] p-5 rounded-3xl bg-white shadow-2xl flex flex-col gap-4 border border-gray-100">
+        <div className="relative w-full max-w-92.5 p-5 rounded-3xl bg-white shadow-2xl flex flex-col gap-4 border border-gray-100">
           <div className="w-full h-48 overflow-hidden rounded-2xl">
             <img src={mainImg} alt="Greece" className="w-full h-full object-cover" />
           </div>
@@ -108,5 +108,5 @@ const Booking = () => {
     </div>
   );
 };
-
+ 
 export default Booking;

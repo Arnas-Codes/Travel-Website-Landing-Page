@@ -5,8 +5,8 @@ const Destination = () => {
   return (
     <div className="w-full max-w-7xl mx-auto px-6 md:px-12 py-12 bg-white text-black font-sans flex flex-col items-center">
       {/* Headings */}
-      <span className="text-sm font-semibold tracking-wider text-gray-500 uppercase mb-1">
-        Top Selling
+      <span className="text-sm font-semibold tracking-wider text-red-500 uppercase mb-1 ">
+        Top Sellings
       </span>
       <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-10 text-center">
         Top Destinations
