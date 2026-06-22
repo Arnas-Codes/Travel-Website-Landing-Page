@@ -2,7 +2,6 @@ import Navbar from "../Navbar/Navbar";
 import Profile from "../../assets/images/image.png";
 import Vector from "../../assets/images/Vector.png";
 import PlayBtn from "../../assets/icons/CommonIcons/Play button.png";
-import Decore from "../../assets/images/Decore.png";
 
 const Hero = () => {
   return (
@@ -10,11 +9,7 @@ const Hero = () => {
       id="home"
       className="relative w-full text-black font-sans bg-white overflow-hidden"
     >
-      {/* Background Decore */}
-      <div className="absolute top-0 right-0 z-0 w-1/2 md:w-auto pointer-events-none">
-        <img src={Decore} alt="" className="w-full object-contain" />
-      </div>
-
+    
       {/* Navigation */}
       <Navbar />
 
@@ -30,7 +25,6 @@ const Hero = () => {
             <h2 className="text-3xl sm:text-5xl lg:text-7xl font-bold text-[#181E4B] leading-tight tracking-tight">
               Travel, enjoy and live a new and full life
             </h2>
-            {/* Vector under text highlight */}
             <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 lg:left-44 lg:translate-x-0 w-36 md:w-56 -z-10">
               <img src={Vector} alt="" className="w-full" />
             </div>

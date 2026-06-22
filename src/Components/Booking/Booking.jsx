@@ -9,10 +9,10 @@ import building from "../../assets/Images/BookingImages/building.png";
 
 const Booking = () => {
   return (
-    <div className="w-full max-w-7xl mx-auto px-6 md:px-12 py-16 min-h-screen flex flex-col lg:flex-row gap-12 lg:gap-6 justify-between items-center text-black font-sans">
+    <div className="w-full max-w-7xl mx-auto px-6 md:px-12 py-16 min-h-screen flex flex-col md:flex-row gap-12 lg:gap-6 justify-between items-center text-black font-sans">
       
       {/* Left Column: Steps */}
-      <div className="w-full lg:w-1/2 flex flex-col gap-6">
+      <div className="w-full lg:w-1/2 flex flex-col gap-6 items-center">
         <div>
           <span className="text-sm font-semibold tracking-wider text-gray-500 uppercase">
             Easy and Fast
