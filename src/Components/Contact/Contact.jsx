@@ -5,23 +5,23 @@ import bg2 from "../../assets/Images/ContactImg/Bg2.png";
 const Contact = () => {
   return (
     <section className="px-6 py-24">
-      <div className="relative max-w-6xl mx-auto bg-[#F7F5FD] rounded-tl-[80px] rounded-tr-[20px] rounded-br-[20px] rounded-bl-[20px] overflow-hidden py-24 px-6 md:px-12">
+      <div className="relative max-w-6xl mx-auto  rounded-tl-[80px] rounded-tr-[20px] rounded-br-[20px] rounded-bl-[20px] overflow-hidden py-24 px-6 md:px-12">
         {/* Left Background Circle */}
         <div className="absolute left-0 bottom-0 pointer-events-none opacity-40">
-          <img src={bg1} alt="" className="w-60 md:w-72" />
+          <img src={bg1} alt="" className="w-50 md:w-72" />
         </div>
 
         {/* Right Background Circle */}
         <div className="absolute top-0 right-0 pointer-events-none opacity-40">
-          <img src={bg2} alt="" className="w-52 md:w-72" />
+          <img src={bg2} alt="" className="w-40 md:w-72" />
         </div>
         {/* Avatars */}
         <div className="relative z-10 flex justify-center mb-10">
-          <div className="flex items-center">
+          <div className="flex gap-6 md:gap-12 items-center">
             {TestimonialData.map((imgSrc, index) => (
               <div
                 key={index}
-                className={`w-12 h-12 rounded-full overflow-hidden border-4 border-white shadow-md ${
+                className={` gap-12${
                   index !== 0 ? "-ml-3" : ""
                 }`}
               >
@@ -81,3 +81,6 @@ const Contact = () => {
 };
 
 export default Contact;
+
+
+

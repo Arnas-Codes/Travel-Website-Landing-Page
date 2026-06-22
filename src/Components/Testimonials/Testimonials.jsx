@@ -13,7 +13,7 @@ const Testimonials = () => {
 
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
           What people say about us.
-        </h2>
+        </h2> 
 
         <div className="flex gap-3">
           <span className="w-2.5 h-2.5 rounded-full bg-gray-800" />
