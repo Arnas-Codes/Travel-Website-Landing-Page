@@ -1,6 +1,6 @@
 import Navbar from "../Navbar/Navbar";
-import Profile from "../../assets/images/image.png";
-import Vector from "../../assets/images/Vector.png";
+import Profile from "../../assets/Images/Image.png";
+import Vector from "../../assets/Images/Vector.png";
 import PlayBtn from "../../assets/icons/CommonIcons/Play button.png";
 
 const Hero = () => {

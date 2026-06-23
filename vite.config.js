@@ -4,5 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/Travel-Website-Landing-Page/",
+  base: process.env.VERCEL ? "/" : "/Travel-Website-Landing-Page/",
 });
