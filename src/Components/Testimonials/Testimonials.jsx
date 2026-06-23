@@ -1,6 +1,6 @@
-import ProfileImg from "../../assets/images/Testimonial/profile.png";
-import SendIcon from "../../assets/images/Testimonial/sendIcon.png";
-import MailIcon from "../../assets/images/Testimonial/MailIcon.png";
+import ProfileImg from "../../assets/Images/Testimonial/profile.png";
+// import SendIcon from "../../assets/Images/Testimonial/sendIcon.png";
+// import MailIcon from "../../assets/Images/Testimonial/MailIcon.png";
 
 const Testimonials = () => {
   return (
